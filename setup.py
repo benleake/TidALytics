@@ -10,7 +10,8 @@
 
 import sys
 from setuptools import setup
-
+import versioneer
+setup(version = versioneer.get_version(), cmdclass = versioneer.get_cmdclass())
 
 def setup_package():
     needs_sphinx = {'build_sphinx', 'upload_docs'}.intersection(sys.argv)
