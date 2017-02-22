@@ -2,4 +2,10 @@
 Developers
 ==========
 
-* csdavenport6 <csdavenport@crimson.ua.edu>
+* Connor Davenport <csdavenport@crimson.ua.edu>
+
+==========
+Project Manager
+==========
+
+* Hannah Hillis <hmhillis@crimson.ua.edu>
