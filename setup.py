@@ -11,7 +11,13 @@
 import sys
 from setuptools import setup
 import versioneer
-setup(version = versioneer.get_version(), cmdclass = versioneer.get_cmdclass())
+setup(version = versioneer.get_version(),
+      cmdclass = versioneer.get_cmdclass(),
+      entry_points={
+          'gui_scripts': [
+              'tidalytics = tidalytics.__main__:main'
+          ]
+      })
 
 def setup_package():
     needs_sphinx = {'build_sphinx', 'upload_docs'}.intersection(sys.argv)

@@ -3,7 +3,7 @@ import pkg_resources
 
 try:
     __version__ = pkg_resources.get_distribution(__name__).version
-except:
+except:S
     __version__ = 'unknown'
 
 from ._version import get_versions
