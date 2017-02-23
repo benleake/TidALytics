@@ -44,6 +44,7 @@ Contents
 .. toctree::
    :maxdepth: 2
 
+   Process <process>
    License <license>
    Authors <authors>
    Changelog <changes>

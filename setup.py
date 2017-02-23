@@ -15,7 +15,7 @@ setup(version = versioneer.get_version(),
       cmdclass = versioneer.get_cmdclass(),
       entry_points={
           'gui_scripts': [
-              'tidalytics = tidalytics.__main__:main'
+              'tidalytics = tidalytics.core:main'
           ]
       })
 
