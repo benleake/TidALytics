@@ -1,9 +1,9 @@
 import sys
 import os.path
-import openVid as ov
+import helpers as h
 
 def main():
-    vid = ov.openVid()
+    vid = h.openVid()
     print(vid)
 
 if __name__ == "__main__":

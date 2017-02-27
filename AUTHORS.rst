@@ -1,4 +1,4 @@
-
+==========
 Developers
 ==========
 
@@ -8,13 +8,13 @@ Developers
 * Tyler Petersen
 * McKenzie McNees
 
-
+===============
 Project Manager
 ===============
 
 * Hannah Hillis <hmhillis@crimson.ua.edu>
 
-
+======================
 UA MIS Faculty Sponsor
 ======================
 

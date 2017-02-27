@@ -43,6 +43,7 @@ Contents
 
 .. toctree::
    :maxdepth: 2
+   :titlesonly:
 
    Process <process>
    License <license>
