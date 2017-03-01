@@ -55,9 +55,9 @@ def image_subtraction(image_1, image_2):
   return cv2.convertScaleAbs(np.subtract(np.float32(image_1), np.float32(image_2)))
 
 """ given image, return keypoints, descriptors using SURF """
-def get_features(image, sift):
+def get_features(image, orb):
   image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY) # convert to grayscale
-  return sift.detectAndCompute(image, None)
+  return orb.detectAndCompute(image, None)
 
 """ find the corresponding features coordinates bewteen the two given images and add them to the given correspondence lists """
 def add_feature_correspondences(keypoints_1, descriptors_1, keypoints_2, descriptors_2, correspondence_1, correspondence_2):
